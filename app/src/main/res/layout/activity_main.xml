@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#06120D"
+    android:padding="20dp"
+    android:gravity="center">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="WA_BUG CONTROL"
+        android:textColor="#00FF88"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:fontFamily="monospace"
+        android:layout_marginBottom="30dp"/>
+
+    <EditText
+        android:id="@+id/etNumber"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Nomor Target (628xxx)"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#555555"
+        android:backgroundTint="#00FF88"
+        android:inputType="phone"
+        android:padding="10dp"/>
+
+    <EditText
+        android:id="@+id/etDuration"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Durasi (Menit)"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#555555"
+        android:backgroundTint="#00FF88"
+        android:inputType="number"
+        android:padding="10dp"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:id="@+id/tvLog"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="SYSTEM READY"
+        android:textColor="#00FF88"
+        android:fontFamily="monospace"
+        android:layout_marginTop="20dp"
+        android:gravity="center"/>
+
+    <Button
+        android:id="@+id/btnStart"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="EXECUTE"
+        android:backgroundTint="#00FF88"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"/>
+</LinearLayout>
